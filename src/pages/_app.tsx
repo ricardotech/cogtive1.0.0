@@ -6,8 +6,6 @@ import { ChakraProvider, Flex } from "@chakra-ui/react";
 import { Context, ContextProvider } from "../contexts/ContextProvider";
 import { Html, Main, NextScript } from "next/document";
 import { useContext, useEffect } from "react";
-import Header from "../Components/Header";
-import Loading from "../Components/Loading";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { user } = useContext(Context);
